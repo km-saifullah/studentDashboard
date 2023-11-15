@@ -55,3 +55,44 @@ p {
   color: #23a859;
 }
 /* Navbar End */
+
+/* Dashboard Form Start */
+.dashboard_form {
+  margin-top: 25px;
+  padding: 25px;
+  border-radius: 15px;
+  background-color: rgba(35, 169, 89, 0.445);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+.dashboard_inputs {
+  display: flex;
+  flex-direction: column;
+  row-gap: 15px;
+}
+.dashboard_inputs input {
+  width: 500px;
+  height: 40px;
+  outline: none;
+  border: 1px solid #23a859;
+  padding: 10px;
+}
+.submit_btn {
+  margin-top: 10px;
+}
+.submit_btn button {
+  width: 100%;
+  padding: 10px 25px;
+  background-color: #23a859;
+  color: #fff;
+  outline: none;
+  cursor: pointer;
+  border: none;
+  transition: all linear 0.3s;
+}
+.submit_btn button:hover {
+  color: #222;
+}
+/* Dashboard Form End */

@@ -15,7 +15,9 @@
       <div class="container">
         <div class="nav_wrapper">
           <div class="logo">
-            <picture><img src="./images/logo.png" alt="" /></picture>
+            <picture>
+              <a href="#"><img src="./images/logo.png" alt="" /></a>
+            </picture>
           </div>
           <div class="menu">
             <ul>
@@ -33,11 +35,66 @@
 
     <!-- Dashboard Start -->
     <section id="dashBoard">
-      <div class="container"></div>
+      <div class="container">
+        <div class="dashboard_form">
+          <form action="">
+            <div class="dashboard_inputs">
+              <input
+                class="firstName"
+                type="text"
+                placeholder="Enter First Name"
+              />
+              <input
+                class="lastName"
+                type="text"
+                placeholder="Enter Last Name"
+              />
+              <input class="sId" type="text" placeholder="Enter Student ID" />
+              <input class="className" type="text" placeholder="Enter Class" />
+              <input
+                class="session"
+                type="text"
+                placeholder="Enter Academic Session"
+              />
+              <input class="bangla" type="text" placeholder="Mark of Bengali" />
+              <input
+                class="english"
+                type="text"
+                placeholder="Mark of English"
+              />
+              <input
+                class="math"
+                type="text"
+                placeholder="Mark of Mathematics"
+              />
+              <input
+                class="physics"
+                type="text"
+                placeholder="Mark of Physics"
+              />
+              <input
+                class="chemistry"
+                type="text"
+                placeholder="Mark of Chemistry"
+              />
+              <input
+                class="biology"
+                type="text"
+                placeholder="Mark of Biology"
+              />
+            </div>
+            <div class="submit_btn">
+              <button class="submitBtn" type="submit">Submit</button>
+            </div>
+          </form>
+        </div>
+      </div>
     </section>
     <!-- Dashboard End -->
 
-    <!-- JS File -->
+    <!-- ChartJS CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <!-- Custom JS File -->
     <script src="./js/script.js"></script>
   </body>
 </html>
