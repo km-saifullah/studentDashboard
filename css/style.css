@@ -78,6 +78,7 @@ p {
   outline: none;
   border: 1px solid #23a859;
   padding: 10px;
+  font-family: "Nunito", sans-serif;
 }
 .submit_btn {
   margin-top: 10px;
@@ -91,8 +92,24 @@ p {
   cursor: pointer;
   border: none;
   transition: all linear 0.3s;
+  font-family: "Nunito", sans-serif;
 }
 .submit_btn button:hover {
   color: #222;
 }
 /* Dashboard Form End */
+
+/* Dashboard Details Start */
+.student_details {
+  font-family: "Nunito", sans-serif;
+  line-height: 140%;
+  color: #222;
+}
+.score {
+  font-weight: 600;
+  color: #23a859;
+}
+.marks_info {
+  padding-top: 20px;
+}
+/* Dashboard Details End */
