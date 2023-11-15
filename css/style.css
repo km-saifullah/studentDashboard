@@ -1,3 +1,5 @@
+/* Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500;600;700&family=Roboto:wght@300;400;500;700&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -23,3 +25,33 @@ p {
   width: 1200px;
   margin: 0 auto;
 }
+/* Navbar Start */
+#navBar {
+  padding: 20px;
+}
+.nav_wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo {
+}
+.menu {
+}
+.menu ul {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.menu ul li a {
+  color: #222;
+  text-transform: capitalize;
+  font-size: 18px;
+  font-weight: 600;
+  font-family: "Roboto", sans-serif;
+  transition: all linear 0.3s;
+}
+.menu ul li a:hover {
+  color: #23a859;
+}
+/* Navbar End */
